@@ -1,0 +1,123 @@
+.page{
+    height:100%;
+}
+
+.container{
+    width: 400px;
+    height: 496px;
+    margin:0 auto;
+    background-image:url(img/background_form.png), linear-gradient(32deg, #3023ae 0%, #c86dd7 100%);
+}
+.wrap{
+    width:260px;
+    height:400px;
+    margin:auto;
+}
+.login{
+    color: #e1c2f1;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background:transparent;
+    border:none;
+}
+.login:first-child{
+    margin:50px 0 0 0;
+}
+
+.login:focus{
+    color: #fbf6e4;
+    background:transparent;
+    border:none;
+    border-bottom: 1.5px solid #e66a64;
+    outline: none;
+}
+
+.form {
+}
+.form__category {
+    color: #fbf6e4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.form__input{
+    width: 261px;
+    height: 42px;
+    background:transparent;
+    border:none;
+    border: 2px solid rgba(191, 185, 204, 0.54);
+}
+.form__input:focus{
+    outline:none;
+    background-color:rgb(26,159,147);
+}
+.form__checkbox{
+    margin:25px 0 0 0;
+    display: none;
+}
+.label{
+    
+}
+.label__text{
+    color: #fbf6e4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    background: transparent;
+}
+input[type=checkbox] + label:before {
+    content: "\2714";
+    color: transparent;
+    background-color: transparent;
+    display: inline-block;
+    border: 1px solid rgb(204,204,204,0.6);
+    border-radius:2px;
+    font-size: 13px;
+    font-weight: 900;
+    margin: 25px 5px 0 0;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    transition: color ease-in .3s;
+    padding: 0px 2px 4px 2px;
+}
+.form__checkbox:checked + .label:before{
+    color:white;
+    background-color:transparent;
+    padding: 0px 2px 4px 2px;
+}
+.sign{
+    margin:25px 0 0 0;
+    width: 261px;
+    height: 42px;
+    background-color: transparent;
+    color: #fbf6e4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align:center;
+    border:none;
+    outline: none;
+}
+
+.sign:hover{
+    border: 1px solid rgba(191, 185, 204, 0.54);
+}
+
+.sign:active{
+    background-color:rgb(26,159,147);
+}
+
+.footer{
+    color: #b9b9cc;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    background:transparent;
+    border:none;border-bottom:1px solid rgba(150, 193, 218, 0.15);
+    outline:none;
+    margin:30px 20px 0 0; 
+}
+
+
